@@ -1,29 +1,36 @@
 {
-  "name": "rss-finder",
-  "version": "2.1.4",
-  "description": "Find rss feeds url",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint . && nyc ava",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  "_from": "rss-finder",
+  "_id": "rss-finder@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-+GkHVAWuix3yQW6aWhqUh0heJ0oPAJpPK3gg9Un27VrJV2onOKGvvOZI8qXIG3LSjtz0VyqzrG8Vua9dldSpeA==",
+  "_location": "/rss-finder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rss-finder",
+    "name": "rss-finder",
+    "escapedName": "rss-finder",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ggkovacs/rss-finder.git"
-  },
-  "keywords": [
-    "rss",
-    "find",
-    "feeds",
-    "atom",
-    "rdf"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Gergely Kovács <gg.kovacs@gmail.com>",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/rss-finder/-/rss-finder-2.1.4.tgz",
+  "_shasum": "6798a055c2880aaf575fb357623b73a9904a49d4",
+  "_spec": "rss-finder",
+  "_where": "/Users/gideonwislang/Projects/sandbox",
+  "author": {
+    "name": "Gergely Kovács",
+    "email": "gg.kovacs@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/ggkovacs/rss-finder/issues"
   },
-  "homepage": "https://github.com/ggkovacs/rss-finder",
+  "bundleDependencies": false,
   "dependencies": {
     "extend": "^3.0.2",
     "feedparser": "^2.2.9",
@@ -31,7 +38,8 @@
     "htmlparser2": "^4.0.0",
     "pinkie-promise": "^2.0.1"
   },
-  "engine": "node >= 4",
+  "deprecated": false,
+  "description": "Find rss feeds url",
   "devDependencies": {
     "ava": "^2.2.0",
     "coveralls": "^3.0.5",
@@ -41,5 +49,26 @@
     "husky": "^3.0.1",
     "nyc": "^14.1.1",
     "pify": "^4.0.1"
-  }
+  },
+  "engine": "node >= 4",
+  "homepage": "https://github.com/ggkovacs/rss-finder",
+  "keywords": [
+    "rss",
+    "find",
+    "feeds",
+    "atom",
+    "rdf"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "rss-finder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggkovacs/rss-finder.git"
+  },
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "eslint . && nyc ava"
+  },
+  "version": "2.1.4"
 }
